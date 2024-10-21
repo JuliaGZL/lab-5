@@ -44,7 +44,7 @@ public class LogoutPresenter implements LogoutOutputBoundary {
         loggedInViewModel.setState(loggedinState);
         loggedInViewModel.firePropertyChanged();
 
-        // TODO: have prepareSuccessView update the LoginState
+        // ODO: have prepareSuccessView update the LoginState
         // 5. get the LoginState out of the appropriate View Model,
         // 6. set the username and password in the state to the empty string
         // 7. set the state in the LoginViewModel to the updated state
